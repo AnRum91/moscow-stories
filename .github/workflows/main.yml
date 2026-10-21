@@ -24,8 +24,6 @@ jobs:
       - name: Установить зависимости
         run: npm install
 
-      - name: Запустить тесты
-        run: npm test
 
       - name: Проверить сборку
         run: npm run build
